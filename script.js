@@ -16,7 +16,7 @@ btn3.onclick = function() {
 }
 
 var surpriseBtn = document.getElementById("surprise-btn");
-var popup = document.getElementById("bear-popup");
+var popup = document.getElementById("best-popup");
 var closeBtn = document.getElementById("close-popup-btn");
 
 surpriseBtn.onclick = function() {

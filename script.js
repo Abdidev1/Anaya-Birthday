@@ -1,3 +1,16 @@
+var lockScreen = document.getElementById("lock-screen");
+var passInput = document.getElementById("passcode-input");
+var unlockBtn = document.getElementById("unlock-btn");
+var errorMsg = document.getElementById("error-msg");
+
+function checkPasscode() {
+    if (passInput.value === "2407" {
+        lockScreen.style.display = "none";
+    } else {
+        errorMsg.innerHTML = "Wrong Code! Try Again.";
+        passInput.value = "";
+    }
+}
 var btn1 = document.getElementById("p1");
 var btn2 = document.getElementById("p2");
 var btn3 = document.getElementById("p3");

@@ -7,6 +7,18 @@
 </head>
 <body>
     
+
+    <div id="lock-screen" class="passcode-overlay">
+        <div class="passcode-box">
+            <h2> Private Page </h2>
+            <p>Enter The 4 digit passcode to unlock the website</p>
+            <input type="password" id="passcode-input" maxlength="4" placeholder="4-digit code">
+            <button id="unlock-btn">Unlock</button>
+            <p id="error-msg"></p>
+        </div>
+    </div>
+
+
     <div class="main-container">
 
         <div class="top-header">
@@ -20,6 +32,9 @@
             <p>Happy 15th birthday Anaya</p>
             <p>I Wanted to build something for your birthday instead of sending a normal text message. Having you as a bestfriend makes school and everything else way less boring</p>
             <p>Thanks for listening to my random talks and being a great friend. I hope you are enjoying your birthday</p>
+
+            <button id="open-letter-btn">Open full birthday Letter</button>
+
             <div class="from-text">- From You Bestiee</div>
         </div>
 
@@ -47,6 +62,20 @@
 
         <div class="bottom-selection">
             <button id="surprise-btn">Click for birthday bears!</button>
+        </div>
+    </div>
+
+    <div id="letter-popup" class="popup-overlay">
+        <div class="letter-inner">
+            <span id="close-letter-btn">&times;</span>
+            <h2>Dear Anaya</h2>
+            <div class="letter-text">
+                <p>Happy 15th Birthday!</p>
+                <p>I wanted to write a proper letter for you here. Honestly, having you as my best friend has been one of the best parts od the year. From all the random conversations,jokes , and chaos, theres never a boring moment when we talk</p>
+                <p>you've always been an awesome friend to hangout with and talk to, and i really appreciate you always being there. Entering 15 is a huge milestone, and i hope this year brings you all the happiness, success, and good memories you deserve.</p>
+                <p>Enjoy your special day on july 24 to the fullest</p>
+            </div>
+            <div class="letter-footer">Best Friends forever</div>
         </div>
     </div>
 

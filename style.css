@@ -11,6 +11,73 @@ body {
     margin: 0 auto;
 }
 
+.passcode-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4a193d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.passcode-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 280px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.passcode-box h2 {
+    margin-top: 0;
+    color: #521c43;
+}
+
+.passcode-box p {
+    font-size: 13px;
+    color: 666;
+}
+
+#passcode-input {
+    width: 120px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 4px;
+    border-radius: 2px solid #d4b2cc;
+    border-radius: 6px;
+    margin: 15px 0 10px 0;
+    outline: none;
+}
+
+#unlock-btn {
+    background-color: #822b6a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+#unlock-btn:hover {
+    background-color: #692855;
+}
+
+#error-msg {
+    color: #d93838;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
 .top-header {
     background-color: white;
     padding: 25px;
@@ -52,6 +119,21 @@ body {
 .message-box h2 {
     margin-top: 0;
     color: #521c43;
+}
+
+#open-letter-btn {
+    background-color: #f0d5e8;
+    border: 1px solid #d4b2cc;
+    color: #521c43;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+#open-letter-btn:hover {
+    background-color: #e3be36;
 }
 
 .from-text {

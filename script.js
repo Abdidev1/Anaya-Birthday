@@ -20,7 +20,7 @@ var popup = document.getElementById("best-popup");
 var closeBtn = document.getElementById("close-popup-btn");
 
 surpriseBtn.onclick = function() {
-    popup.style.display = "block";
+    popup.style.display = "flex";
 };
 
 closeBtn.onclick = function() {

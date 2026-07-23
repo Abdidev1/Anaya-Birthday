@@ -62,6 +62,12 @@
 
         <div class="bottom-selection">
             <button id="surprise-btn">Click for birthday bears!</button>
+
+            <div style="margin-top: 15px">
+                <button id="open-scratch-btn">Claim Your Roblox Gift Card</button>
+            </div>
+
+
         </div>
     </div>
 
@@ -89,6 +95,23 @@
                 <span class="bear2">🐻</span>
             </div>
             <p>Happy Birthday Anaya! Have an awesome day!</p>
+        </div>
+    </div>
+
+    <div id="scratch-popup" class="popup-overlay">
+        <div class="scratch-inner">
+            <span id="close-scratch-btn">&times;</span>
+            <h2>Roblox Gift Card</h2>
+            <p>Scratch of the grey area below using your mouse or finger!</p>
+
+            <div class="scratch-container">
+
+                <div class="card-code-text" id="gift-code-text">XXXX-XXXX-XXXX-XXXX</div>
+
+                <canvas id="scratch-canvas" width="280" height="70"></canvas>
+            </div>
+
+            <p class="scratch-btn">Scratch over 50% to clear it automatically!</p>
         </div>
     </div>
 
